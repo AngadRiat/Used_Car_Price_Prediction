@@ -3,7 +3,7 @@ import pandas as pd
 import sys
 from flask import Flask, render_template, request
 
-sys.path.insert(0, '/Users/angadriat/Documents/Angad/Books_Notes/Sem_5/DS_Project/Modules')
+sys.path.insert(0, 'Modules')
 
 from predictor import predict_module
 
